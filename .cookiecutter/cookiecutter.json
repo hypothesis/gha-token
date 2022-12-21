@@ -1,0 +1,25 @@
+{
+  "template": "https://github.com/hypothesis/cookiecutters",
+  "checkout": null,
+  "directory": "pypackage",
+  "ignore": [],
+  "extra_context": {
+    "name": "gha-token",
+    "package_name": "gha_token",
+    "slug": "gha-token",
+    "short_description": "Get app installation access tokens from the GitHub API.",
+    "python_versions": "3.10.6, 3.9.13, 3.8.13, 3.7.13",
+    "github_owner": "hypothesis",
+    "copyright_holder": "Hypothesis",
+    "visibility": "public",
+    "console_script": "yes",
+    "devdata": "no",
+    "postgres": "no",
+    "dependabot_pip_interval": "monthly",
+    "pypi": "no",
+    "__postgres_port": "53810",
+    "__entry_point": "gha-token",
+    "__github_url": "https://github.com/hypothesis/gha-token",
+    "__hdev_project_type": "library"
+  }
+}
