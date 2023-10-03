@@ -8,7 +8,7 @@
     "package_name": "gha_token",
     "slug": "gha-token",
     "short_description": "Get app installation access tokens from the GitHub API.",
-    "python_versions": "3.10.6, 3.9.13, 3.8.13, 3.7.13",
+    "python_versions": "3.12.0, 3.11.6, 3.10.13, 3.9.18, 3.8.18",
     "github_owner": "hypothesis",
     "copyright_holder": "Hypothesis",
     "visibility": "public",

@@ -1,11 +1,7 @@
 from argparse import ArgumentParser
+from importlib.metadata import version
 
 from gha_token.core import get_token
-
-try:
-    from importlib.metadata import version
-except ModuleNotFoundError:
-    from importlib_metadata import version
 
 
 def cli(_argv=None):
