@@ -20,7 +20,6 @@
     "__postgres_port": "53810",
     "__entry_point": "gha-token",
     "__github_url": "https://github.com/hypothesis/gha-token",
-    "__hdev_project_type": "library",
     "__copyright_year": "2022"
   }
 }
