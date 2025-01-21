@@ -2,6 +2,30 @@
 requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
+[project]
+dynamic = ["version"]
+name = "gha-token"
+description = "Get app installation access tokens from the GitHub API."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Developers",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pyjwt[crypto]",
+    "requests",
+]
+
+[project.urls]
+Repository = "https://github.com/hypothesis/gha-token"
+Issues = "https://github.com/hypothesis/gha-token/issues"
+Changelog = "https://github.com/hypothesis/gha-token/releases"
+
+[project.scripts]
+gha-token = "gha_token.cli:cli"
+
 [tool.setuptools_scm]
 
 [tool.pytest.ini_options]
